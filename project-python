@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x=np.arange(-4,4,.10)
+y=x*x
+#x=[1,2,3,7]
+#y=[3,5,7,9]
+#z=[10,8,6,4]
+plt.grid(True)
+plt.xlabel('Puncte')
+plt.ylabel('Lunile')
+plt.title('In scoala KAD')
+plt.plot(x,y,'y--.',linewidth=1, markersize=6, label='2019-2020')
+plt.plot(x,x,'r-.',linewidth=1, markersize=6, label='2020-2021' )
+plt.legend()
+plt.show()
